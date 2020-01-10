@@ -28,6 +28,7 @@ npm run build:weapp
   - redux-thunk
   - "@tarojs/redux": "1.3.29",
   - "@tarojs/redux-h5": "1.3.29",
+  - "@tarojs/async-await": "1.3.29",
 
 ## 三、模块开发
 
