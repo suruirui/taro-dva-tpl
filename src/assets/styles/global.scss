@@ -1,0 +1,46 @@
+/*全局的样式*/
+.taro_page {
+  background-color: #f5f7fa;
+}
+html,
+body {
+  font-family: "微软雅黑";
+}
+.taro_page:before {
+  /*父元素塌陷*/
+  content: "";
+  display: table;
+}
+/*常用的class*/
+/*垂直水平居中*/
+.abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*文本省略*/
+.txt-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 修改placeholder样式
+// ::-webkit-input-placeholder {
+//   /* WebKit browsers */
+//   color: #babfc9;
+//   font: 400 32px/96px "微软雅黑";
+// }
+
+// ::-moz-placeholder {
+//   /* Mozilla Firefox 19+ */
+//   color: #babfc9;
+//   font: 400 32px/96px "微软雅黑";
+// }
+
+// :-ms-input-placeholder {
+//   /* Internet Explorer 10+ */
+//   color: #babfc9;
+//   font: 400 32px/96px "微软雅黑";
+// }
